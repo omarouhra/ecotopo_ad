@@ -129,7 +129,7 @@ STATIC_URL = '/static/'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://ecotopo.ma/"
+    "https://ecotopo.ma"
 ]
 
 
