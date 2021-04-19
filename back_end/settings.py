@@ -29,7 +29,9 @@ SECRET_KEY = 'n&jmkx-*lq0d=6#!2tskvy+^rbpg8u#9it6zq0evqc=&ib7d^g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+PASSWORD_HASHERS = [
+    'django.contrib.auth.hashers.MD5PasswordHasher',
+]
 ALLOWED_HOSTS = ["ecotopo.herokuapp.com"]
 
 # Application definition
